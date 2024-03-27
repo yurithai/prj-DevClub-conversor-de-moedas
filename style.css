@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700px;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body {
+    background: #8A51FC;
+}
+
+body label {
+    font-size: 14px;
+    color: #a4a3a3;
+}
+
+body span {
+    color: #777777;
+}
+
+.wrapper {
+    width: 35%;
+    margin: 0 auto 2em;
+    height: auto;
+    border-radius: 20px;
+    padding: 2em 2em .6em;
+    background: #F4F4F4;
+}
+
+#img-logo {
+    width: 20vw;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+}
+
+.currency-select, .slct-moedas, #ipt-valor {
+    width: 100%;
+    height: auto;
+    padding: .7em;
+    color: #555555;
+    appearance: none;                  /*  Para sumir a seta do select  */
+    border-radius: 4px;
+    margin-bottom: 1.3em;
+    border: 1px solid #BBBBBB;
+}
+
+.currency-select, .slct-moedas {
+    cursor: pointer;
+}
+
+#btn-converter { 
+    width: 100%;
+    border: none;
+    padding: .7em;
+    color: #FFFF;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 1.8em;
+    background: #772FD3;
+    box-shadow: 5px 5px 10px rgb(87, 87, 87);
+}
+
+#btn-converter:hover {
+    background: #622aaa;
+}
+
+#btn-converter:active {
+    background: #4d248d;
+}
+
+.container-bottom {
+    width: 100%;
+    margin: auto;
+    padding: 1em;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: column;
+    border: 1px solid #772FD3;
+}
+
+.img-bnd, #img-arrow, .img-bnd-converted {
+    margin: .5em 0;
+}
+
+.currency-box {
+    gap: .4em;                       /* Distância entre os itens */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.type-converted, .type-convert {
+    font-size: 16px;
+    color: #a4a3a3;
+}
+
+.currency-value, .currency-converted {
+    font-size: 22px;
+    color: #555555;
+}
